@@ -68,6 +68,20 @@ section {
     align-content: center;
     gap: .5em;
 } 
+#flex-mid-main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70%;
+    width: 90vw;
+    height: 60vh;
+    background-color: #5dacbd;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: .5em;
+    color: #24527a;
+    text-align: center;
+} 
 #flex-mid-resume {
     display: flex;
     flex-direction: column;
@@ -81,7 +95,11 @@ section {
     gap: .5em;
 } 
 #flex-mid > img {
-    width: 70%;
+    width: 90%;
+    border-radius: 10px;
+}
+#flex-mid-main > img {
+    width: 90%;
     border-radius: 10px;
 }
 #flex-mid-resume > img {
@@ -107,6 +125,7 @@ section {
     height: 20vh;
     background-color: #24527a;
     border-radius: 15px;
+    min-width: 190px;
 }
 .project > p {
     color:#a7bcb9;
@@ -116,7 +135,45 @@ section {
     background-size: contain;
     background-repeat: no-repeat;
 }
+button {
+    background: none;
+    border: none;
+    color: #24527a;
+    font-size: 1.25em;
+    padding-top: 5px;
+}
+#modal {
+	background-color: rgba(0,0,0,0.4);
+	position: fixed;
+	top: 0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	z-index:1;
+	overflow: auto;
+	display: block;
+}
+#resume-modal {
+    display: none;
+	background-color: white;
+	height: 90vh;
+	width: 70vw;
+	border-radius: 5%;
+	margin: auto;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	/* padding: 2%;
+	line-height: 120%; */
 
+}
+#resume-modal > embed {
+    max-width: 90vw;
+    max-height: 90vh;
+    display: block;
+  }
+
+#modalFooter {
+	text-align: right;
+}
 .carousel-images {
     display: flex;
     justify-content: center;
