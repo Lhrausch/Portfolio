@@ -129,6 +129,8 @@ section {
 }
 .project > p {
     color:#a7bcb9;
+    text-align: right;
+    font-size: 1.5em;
 }
 .proj-1 {
     background-image: url("images/bowling balls/blueSlime.png");
