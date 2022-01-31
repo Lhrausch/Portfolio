@@ -68,10 +68,55 @@ section {
     align-content: center;
     gap: .5em;
 } 
+#flex-mid-resume {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70%;
+    width: 90vw;
+    height: 60vh;
+    background-color: #5dacbd;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: .5em;
+} 
 #flex-mid > img {
     width: 70%;
     border-radius: 10px;
 }
+#flex-mid-resume > img {
+    width: 70%;
+    border-radius: 10px;
+}
+#flex-mid-project {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 70%;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 60vh;
+    background-color: #5dacbd;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: .5em;
+}
+.project {
+    display: inline;
+    width: 35vw;
+    height: 20vh;
+    background-color: #24527a;
+    border-radius: 15px;
+}
+.project > p {
+    color:#a7bcb9;
+}
+.proj-1 {
+    background-image: url("images/bowling balls/blueSlime.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .carousel-images {
     display: flex;
     justify-content: center;
@@ -99,8 +144,4 @@ section {
 }
 .lnr {
     font-size: 1em;
-}
-
-@media screen {
-    
 }
