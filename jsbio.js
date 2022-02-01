@@ -1,4 +1,4 @@
-console.log("test");
+// console.log("test");
 
 $(() => {
     const $openBtn = $("#open-resume")
@@ -17,9 +17,9 @@ $(() => {
     $openBtn.on("click", openResume)
     $closeBtn.on("click", closeResume)
 
+    //  const $url = "images/Luke_Rausch.pdf"
     // const $download = $("#download-resume")
-
-    // $download.on("click", )
+    // $download.on("click",$url )
 
 
     currentImageIndex = 0
@@ -45,7 +45,7 @@ $(() => {
 
 
         // $(".proj-1").on("click"), () =>  {
-        //     figure out how to open project into $modal, once project completed.. lol
+        //     figure out how to open project into $modal, 
         // or just create new page to house it
         // }
 
